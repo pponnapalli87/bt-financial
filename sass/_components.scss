@@ -1,0 +1,209 @@
+.logo {
+    width: 75%;
+    padding-left: 1.5rem;
+    display: flex;
+}
+
+.adviser {
+    width: 25%;
+    height: 100%;
+    border-left: solid 1px #d9d9d9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+
+    .adviser-settings {
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .adviser-details {
+
+        &__title {
+            font-size: 1.4rem;
+            font-weight: bold;
+            color: #007ead;
+        }
+
+        &__id {
+            font-size: 1.2rem;
+            color: #5b6770;
+        }
+    }
+}
+
+.side-nav {
+    list-style-type: none;
+
+    &__item {
+        padding: 1.3rem 1.2rem 1.2rem 1.3rem;
+    }
+}
+
+.sub-header {
+    height: 5rem;
+    background-color: #007ba9;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+
+    .investment-summary {
+        padding-left: 3rem;
+
+        &__title {
+            font-size: 1.4rem;
+            font-weight: 500;
+        }
+
+        &__id {
+            font-size: 1.2rem;
+            color: #c8f1ff;
+        }
+    }
+
+    .portfolio-summary {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-right: 2rem;
+
+        &__label {
+            font-size: 1.2rem;
+            color: #c8f1ff;
+            padding-right: 1.9rem;
+        }
+
+        &__value {
+            font-size: 2.2rem;
+        }
+    }
+}
+
+.reports-summary {
+    padding: 2rem 3rem 2rem 3rem;
+}
+
+.reports-overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.3rem;
+
+    .overview-options {
+        display: flex;
+        align-items: center;
+        &__icon {
+            border: solid 1px #d9d9d9;
+            width: 3.2rem;
+            height: 3.2rem;
+            border-radius: 0.3rem;
+            padding: 0.8rem;
+        }
+
+        &__title {
+            font-size: 2.4rem;
+            padding-left: 1rem;
+            color: #00263e;
+            font-weight: normal;
+        }
+    }
+
+    .overview-dropdown {
+        width: 26.1rem;
+        height: 3.2rem;
+        border: solid 1px #a1acb4;
+        background-color: #ffffff;
+        border-radius: 3px;
+        padding-left: 0.9rem;
+        font-size: 1.4rem;
+        color: #545454;
+    }
+}
+
+.quick-preferences {
+    height: 8rem;
+    padding: 2.4rem;
+    border-radius: 3px;
+    border: solid 1px #ededed;
+    background-color: #f5f5f5;
+    margin-bottom: 2rem;
+
+    &__title {
+        font-size: 2rem;
+        font-weight: normal;
+        color: #00263e;
+    }
+}
+
+.report-packs {
+    border-radius: 3px;
+    border: solid 1px #ededed;
+    background-color: #ffffff;
+    padding: 3rem;
+
+    &__title {
+        font-size: 2.4rem;
+        font-weight: normal;
+        color: #00263e;
+    }
+
+    .packs {
+        display: flex;
+
+        .pack {
+            width: 17.6rem;
+            height: 21.9rem;
+            margin: 21px 20px 0 0;
+            border-radius: 3px;
+            border: solid 1px #e5e5e5;
+            background-color: #ffffff;
+
+            &__title {
+                height: 60%;
+                position: relative;
+            }
+
+            &__title-text {
+                position: absolute;
+                bottom: 1.5rem;
+                left: 1.5rem;
+                font-size: 1.8rem;
+                font-weight: normal;
+                color: #00232b;
+            }
+
+            &__details {
+                height: 40%;
+                background-image: linear-gradient(185deg, #0c2b34 127%, #335178 7%);
+                padding: 1.5rem;
+                color: #ffffff;
+            }
+        }
+    }
+}
+
+.individual-reports {
+    height: 22.8rem;
+    margin-top: 2rem;
+    padding: 30px;
+    border-radius: 3px;
+    border: solid 1px #ededed;
+
+    &__title {
+        font-size: 2.4rem;
+        font-weight: normal;
+        color: #00263e;
+    }
+}
+
+.footer {
+    margin-top: 3rem;
+    padding-top:2rem;
+    height: 6.5rem;
+    border-top: solid 1px #e5e5e5
+}
